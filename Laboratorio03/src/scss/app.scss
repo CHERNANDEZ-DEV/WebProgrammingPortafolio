@@ -1,0 +1,9 @@
+// En app.scss por lo general solo se importan otros archivos
+// @use es la nueva forma utilizada en conjunto con la funcion forward, lo cual implica que
+// se debe crear un archivo _index.scss
+// Se cambia @import por @use
+// @use lo va a compilar y @forward solo apunta hacia donde se encuentren los archivos
+// @import hacia disponible las variables en cualquier archivo sass
+
+@use 'base'; 
+@use 'layout';

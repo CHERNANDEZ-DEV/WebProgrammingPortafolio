@@ -1,0 +1,38 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.inicio{
+
+    @include m.tablet{
+        min-height: 70rem;
+        background-image: url(../../../img/Back-Audi-Backgrounds-desktop.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
+
+.header{
+
+    background-color: v.$grisOscuro;
+    padding: 1rem 0 3rem 0;
+
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include m.tablet{
+        min-height: 70rem;
+    }
+
+    h2{
+        text-align: left;
+        color: v.$blanco;
+        font-weight: lighter;
+        line-height: 2;
+    }
+}
+
+

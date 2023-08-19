@@ -1,0 +1,19 @@
+{
+  "name": "laboratorio03",
+  "version": "1.0.0",
+  "description": "Proyecto con Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch  src/scss:build/css"
+  },
+  "keywords": [
+    "Sass",
+    "Gulp"
+  ],
+  "author": "CARLOS HERNANDEZ",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.65.1"
+  }
+}
